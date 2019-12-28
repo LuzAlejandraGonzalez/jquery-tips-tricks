@@ -4,25 +4,29 @@
     <title></title>
     <script src="Scripts/jquery.js"></script>
     <script>
-        $(document).ready(function () {
-            $("#emailContainer").attr("title", "Emails");
-            $("#emailContainer").click(function () {
-                alert("Clicked container");
-            });
+        $emailContainer;
 
-            updateEmailPanels();
-            updateOrdersPanels();
+        $(document).ready(function () {
+            $emailContainer = $("#emailContainer");
+            $emailContainer
+                .attr("title", "Emails")
+                .click(function () {
+                    alert("Clicked container");
+                });
+
+            updatePanels($emailContainer);
+            updatePanels($("#ordersContainer"));
 
         });
 
-        function updateEmailPanels() {
-            $("#emailContainer div.panel").each(function (i) {
-                $(this).html("Panel " + i);
-            });
-        }
+        //function updatePanels($context) {
+        //    $("div.panel", $context).each(function (i) {
+        //        $(this).html("Panel " + i);
+        //    });
+        //}
 
-        function updateOrdersPanels() {
-            $("#ordersContainer div.panel").each(function (i) {
+        function updatePanels($context) {
+            $context.find("div.panel").each(function (i) {
                 $(this).html("Panel " + i);
             });
         }

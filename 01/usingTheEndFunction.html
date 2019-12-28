@@ -9,7 +9,14 @@
                 name: "John Doe",
                 city: "Chandler"
             };
-            $('<div class="cust"><span /></div>').appendTo("#container");
+            $('<div class="cust"><span /></div>')
+                .find("span")
+                    .attr("title", cust.name)
+                    .data(cust)
+                    .html(cust.name)
+                .end()
+                .appendTo("#container");
+
         });
     </script>
 </head>

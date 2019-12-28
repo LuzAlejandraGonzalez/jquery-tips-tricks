@@ -35,8 +35,13 @@
 
     <script src="Scripts/jquery.js"></script>
     <script>
+        jQuery.fn.exists = function () { return this.length > 0;}
+
         $("#loadCustomersButton").click(function () {
             var $tbody = $("#customersTable tbody");
+            if (!$tbody.exists()) {
+                $('#container').append('<table id = "customersTable" />');
+            }
             $tbody.html("");
             var start = new Date();
             var custs = getCustomers();

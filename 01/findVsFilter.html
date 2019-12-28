@@ -8,7 +8,7 @@
             $("#showButton").click(function () {
                 var $names = $("#people li");
                 var $output = $("#output");
-                var $pubs = "";
+                var $pubs = $names.filter('.publisher');
 
                 if ($pubs.length) {
                     var html = "";

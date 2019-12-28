@@ -41,14 +41,14 @@
             var custs = getCustomers();
             for (var i = 0; i < custs.length; i++) {
                 var cust = custs[i];
-                var tr = $("#customersTable tbody").append("<tr></tr>");
-                tr.append("<td>" + cust.id + "</td>");
-                tr.append("<td>" + cust.name + "</td>");
-                tr.append("<td>" + cust.address + "</td>");
-                tr.append("<td>" + cust.city + "</td>");
-                tr.append("<td>" + cust.state + "</td>");
-                tr.append("<td>" + cust.zip + "</td>");
-                tr.append("<td>" + cust.newCustomer + "</td>");
+                var tr = $("#customersTable tbody").append("<tr>"+
+                "<td>" + cust.id + "</td>"+
+                "<td>" + cust.name + "</td>"+
+                "<td>" + cust.address + "</td>"+
+                "<td>" + cust.city + "</td>"+
+                "<td>" + cust.state + "</td>"+
+                "<td>" + cust.zip + "</td>"+
+                "<td>" + cust.newCustomer + "</td></tr>");
             }
             var diff = new Date().getTime() - start.getTime();
             $("#diff").html(diff);
@@ -56,7 +56,7 @@
 
         function getCustomers() {
             var custs = [];
-            for (var i = 0; i < 4000; i++) {
+            for (var i = 0; i < 500; i++) {
                 var cust = {
                     id: i,
                     name: "John Doe",

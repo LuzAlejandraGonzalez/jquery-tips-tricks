@@ -12,8 +12,21 @@
             { title: "AngularJS", href: "http://angularjs.org" }
         ];
 
+        var html = [];
+        for (var i = 0; i < links.length; i++) {
+            var link = links[i];
+            var $li = $("<li><a /></li>")
+                        .find("a")
+                        .html(link.title)
+                        .attr({
+                         "title": link.title,
+                         "href": link.href
+                         })
+                        .end();
+            html.push($li);
+        }
 
-        $("#container").append();
+        $("#container").append(html);
     </script>
 </body>
 </html>
