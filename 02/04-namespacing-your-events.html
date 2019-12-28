@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <link href="./ext/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -53,14 +53,14 @@ input.glowing:focus {
 	<script>
 	$("input.date").datepicker();
 
-	$("input").on("focus blur", function(e) {
+	$("input").on("focus.glow blur.glow", function(e) {
         $(this).toggleClass("glowing", e.type === "focus");
 	});
 
 	$("button[type='submit']").on("click", function(e) {
 	    e.preventDefault();
 	    toastr.success("Save Changes", "Saving and removing glowing...");
-	    $("input").off("focus blur");
+	    $("input").off(".glow");
 	});
 	</script>
 </body>

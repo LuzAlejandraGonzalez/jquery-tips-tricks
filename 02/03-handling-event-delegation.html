@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <link href="./ext/toastr/toastr.min.css" rel="stylesheet" />
@@ -24,8 +24,10 @@
 
 		$members.find("li a")
             .on("click", function (e) {
-                e.preventDefault();
                 toastr.success(this.tagName, "Click: 1st");
+                //return false;
+                e.preventDefault();
+                e.stopPropagation();
 		    })
             .on("click", function(e) {
 			    e.preventDefault();

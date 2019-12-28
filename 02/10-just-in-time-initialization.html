@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <link href="./ext/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -26,8 +26,8 @@
             });
         };
 
-        $(document).ready(function () {
-            $("input.date").datepicker();
+        $(document).on("focus", "input.date:not(.hasDatepicker)", function (e) {
+            $(this).datepicker();
         });
     </script>
 </head>

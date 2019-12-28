@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <link href="./ext/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -36,9 +36,14 @@
             this.lastName = lastName;
         };
         Person.prototype.render = function ($output) {
+            var that = this;
             $("<code></code>", {
                 html: this.firstName + " " + this.lastName,
-                click: this.clicked
+                //click: $.proxy(this.clicked, this)
+                //click:this.clicked.bind(this)
+                click: function () {
+                    that.clicked();
+                }
             }).appendTo($output);
         };
         Person.prototype.clicked = function () {
@@ -48,7 +53,8 @@
         $("button").on("click", function (e) {
             var firstName = $("#firstName").val(),
                 lastName = $("#lastName").val(),
-                $output = $("#output"), person;
+                $output = $("#output"),
+                person;
 
             e.preventDefault();
             person = new Person(firstName, lastName);

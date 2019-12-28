@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <link href="./ext/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -37,6 +37,7 @@
             process: function (e) {
                 e.preventDefault();
                 // TODO: Trigger Custom Event
+                $(document).trigger("personUpdate", [this.scrape()]);
             },
             scrape: function () {
                 return {
@@ -49,6 +50,7 @@
             $element: $("#output"),
             init: function () {
                 // TODO: Listen to Custom Event
+                $(document).on("personUpdate", this.render.bind(this));
             },
             render: function (e, person) {
                 $("<code />", {
