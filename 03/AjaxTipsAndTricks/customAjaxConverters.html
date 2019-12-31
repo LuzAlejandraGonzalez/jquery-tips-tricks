@@ -5,13 +5,21 @@
     <script src="Scripts/jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            $.ajaxSetup({
+                converters: {
+                    "json jsond": function (data) {
+                        return data && data.hasOwnProperty("d") ? data.d : data;
+                    }
+                }
+            });
             $('#makeCall').click(function () {
                 $.ajax({
                     url: "/api/custom",
+                    dataType: "jsond",
                     success: function (data) {
                         var custsHtml = "";
-                        for (var i = 0; i < data.d.length; i++) {
-                            var cust = data.d[i];
+                        for (var i = 0; i < data.length; i++) {
+                            var cust = data[i];
                             custsHtml += cust.FirstName + " " + cust.LastName + "<br />";
                         }
                         $("#output").html(custsHtml);
@@ -29,4 +37,3 @@
     <div id="output"></div>
 </body>
 </html>
-

@@ -132,3 +132,39 @@ D:\Wahlin Group\Courses\PluralSight\jQuery Tips and Tricks\Module3\Code\Begin\Aj
 \\Wahlind-hp\d\Wahlin Group\Courses\PluralSight\jQuery Tips and Tricks\Module3\Code\Begin\AjaxTipsAndTricks\obj\Debug\AjaxTipsAndTricks.csprojResolveAssemblyReference.cache
 \\Wahlind-hp\d\Wahlin Group\Courses\PluralSight\jQuery Tips and Tricks\Module3\Code\Begin\AjaxTipsAndTricks\obj\Debug\AjaxTipsAndTricks.dll
 \\Wahlind-hp\d\Wahlin Group\Courses\PluralSight\jQuery Tips and Tricks\Module3\Code\Begin\AjaxTipsAndTricks\obj\Debug\AjaxTipsAndTricks.pdb
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\AjaxTipsAndTricks.dll.config
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\AjaxTipsAndTricks.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\AjaxTipsAndTricks.pdb
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\Antlr3.Runtime.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\EntityFramework.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\EntityFramework.SqlServer.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\Newtonsoft.Json.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Net.Http.Formatting.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Helpers.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Http.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Http.WebHost.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Mvc.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Optimization.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Providers.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Razor.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.WebPages.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\WebGrease.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\EntityFramework.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\EntityFramework.SqlServer.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\Newtonsoft.Json.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Net.Http.Formatting.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Helpers.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Http.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Http.WebHost.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Mvc.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.Razor.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.WebPages.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\obj\Debug\AjaxTipsAndTricks.csprojAssemblyReference.cache
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\obj\Debug\AjaxTipsAndTricks.csproj.CopyComplete
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\obj\Debug\AjaxTipsAndTricks.dll
+C:\Users\Alejandra\Desktop\jquery-tips-tricks\03\AjaxTipsAndTricks\obj\Debug\AjaxTipsAndTricks.pdb

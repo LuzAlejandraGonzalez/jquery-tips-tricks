@@ -3,12 +3,26 @@
 <head>
     <title>Using the data() Function</title>
     <style type="text/css">
-        table { width: 400px;}
-        table th, table td { text-align: left; width:33%;}
-        thead > tr { background-color: #efefef;}
-        #customersTable tr { cursor: pointer;}
+        table {
+            width: 400px;
+        }
+
+            table th,
+            table td {
+                text-align: left;
+                width: 33%;
+            }
+
+        thead > tr {
+            background-color: #efefef;
+        }
+
+        #customersTable tr {
+            cursor: pointer;
+        }
     </style>
 </head>
+
 <body>
     <h2>Customers</h2>
     <table id="customersTable">
@@ -42,7 +56,9 @@
                 var $trs = [];
                 for (var i = 0; i < data.length; i++) {
                     var cust = data[i];
-                    var $tr = $("<tr>" + td(cust.ID) + td(cust.FirstName) + td(cust.LastName) + "</tr>");  
+                    var $tr = $("<tr>" + td(cust.ID) + td(cust.FirstName) + td(cust.LastName) + "</tr>");
+                    $tr.data("orders", cust.Orders);
+                    $tr.click(showOrders);
                     $trs.push($tr);
                 }
                 $("#customersTable tbody").append($trs);
@@ -50,7 +66,18 @@
             .fail(function (jqXHR, statusText, err) {
                 alert("Error getting customers: " + err);
             });
-
+        function showOrders() {
+            var $tbody = $("#ordersTable tbody");
+            $tbody.html("");
+            var orders = $(this).data("orders");
+            var $trs = [];
+            for (var i = 0; i < orders.length; i++) {
+                var order = orders[i];
+                var $tr = $("<tr>" + td(order.ID) + td(order.ProductTitle) + rd(order.Total));
+                $trs.push($tr);
+            }
+            $tbody.append($trs);
+        }
         function td(data) {
             return "<td>" + data + "</td>";
         }
